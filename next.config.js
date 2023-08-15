@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  experimentsl: {
+    serverComponentsExternalPackages: ["bcrtypt"],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
